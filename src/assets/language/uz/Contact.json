@@ -1,0 +1,12 @@
+{
+  "contactTitle": "Marxamat bog'lanish uchun form",
+  "socialTitle": "Ijtimoiy tarmoqlardagi akkauntlarim",
+  "formTitle": "Sorov yuborish",
+  "labelName": "Ism:",
+  "placeholderName": "Ismingiz . . .",
+  "labelEmail": "Elektron pochta:",
+  "placeholderEmail": "Email@example.com",
+  "labelMessage": "Xabar:",
+  "placeholderMessage": "Xabaringizni yozing",
+  "submitBtn": "Yuborish"
+}

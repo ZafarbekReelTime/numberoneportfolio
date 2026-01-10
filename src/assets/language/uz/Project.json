@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "title": "Loyihalar sahifasiga xush kelibsiz",
+    "searchHint": "Markazdagi belgini bosing — qidiruv ochiladi",
+    "notFound": "Ma’lumot topilmadi",
+    "difficulty": {
+      "easy": "Oson",
+      "medium": "O‘rta",
+      "hard": "Qiyin"
+    }
+  }
+}

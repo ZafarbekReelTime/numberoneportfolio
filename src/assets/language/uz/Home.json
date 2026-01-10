@@ -1,0 +1,6 @@
+{
+  "greeting": "Assalomu aleykum Men <span class='text-white'>Ahmadaliyev Zafarbek</span>man",
+  "description": "Frontend developer va professional dizayner — foydalanuvchi uchun qulay, zamonaviy va estetik interfeyslar yaratishda mutaxassis. U nafaqat veb-saytlar va ilovalarning tashqi ko‘rinishini chiroyli qiladi, balki ularning funksionalligini mukammal uyg‘unlashtiradi. Har bir element, ranglar kombinatsiyasi, tipografiya va animatsiyalar foydalanuvchi tajribasini yaxshilashga xizmat qiladi.\n\nU tezkor, moslashuvchan va interaktiv dizaynlar yaratadi, har bir sahifa va komponent intuitiv bo‘lishini ta’minlaydi. Responsiv dizayn orqali saytlar va ilovalar turli ekran o‘lchamlari — mobil, planshet va desktop — uchun mukammal ishlashini kafolatlaydi.",
+  "aboutBtn": "Haqida",
+  "aboutText": "Men haqimda to‘liq ma’lumot olish uchun"
+}

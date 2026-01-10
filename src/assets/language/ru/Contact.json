@@ -1,0 +1,12 @@
+{
+  "contactTitle": "Пожалуйста, заполните форму контакта",
+  "socialTitle": "Мои социальные аккаунты",
+  "formTitle": "Отправить запрос",
+  "labelName": "Имя:",
+  "placeholderName": "Ваше имя...",
+  "labelEmail": "Электронная почта:",
+  "placeholderEmail": "Email@example.com",
+  "labelMessage": "Сообщение:",
+  "placeholderMessage": "Напишите ваше сообщение",
+  "submitBtn": "Отправить"
+}

@@ -1,0 +1,11 @@
+{
+  "formTitle": "So‘rov yuborish",
+  "labelName": "Ism:",
+  "placeholderName": "Ismingiz . . .",
+  "labelEmail": "Elektron pochta:",
+  "placeholderEmail": "Email@example.com",
+  "labelMessage": "Xabar:",
+  "placeholderMessage": "Xabaringizni yozing",
+  "submitBtn": "Yuborish",
+  "socialTitle": "Ijtimoiy tarmoqlardagi akkauntlarim"
+}

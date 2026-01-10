@@ -1,0 +1,12 @@
+{
+  "contactTitle": "Please fill out the contact form",
+  "socialTitle": "My social accounts",
+  "formTitle": "Send a request",
+  "labelName": "Name:",
+  "placeholderName": "Your name...",
+  "labelEmail": "Email:",
+  "placeholderEmail": "Email@example.com",
+  "labelMessage": "Message:",
+  "placeholderMessage": "Write your message",
+  "submitBtn": "Send"
+}

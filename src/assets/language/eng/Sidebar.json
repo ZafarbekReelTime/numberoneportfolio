@@ -1,0 +1,17 @@
+{
+  "sidebar": {
+    "pages": "Pages",
+    "language": "Select language"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills"
+  },
+  "language": {
+    "uz": "Uzbek",
+    "en": "English",
+    "ru": "Russian"
+  }
+}

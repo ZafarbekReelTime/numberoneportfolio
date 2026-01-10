@@ -1,0 +1,17 @@
+{
+  "sidebar": {
+    "pages": "Sahifalar",
+    "language": "Tilni tanlang"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Haqida",
+    "projects": "Loyihalar",
+    "skills": "Ko‘nikmalar"
+  },
+  "language": {
+    "uz": "O‘zbek tili",
+    "en": "Ingliz tili",
+    "ru": "Rus tili"
+  }
+}

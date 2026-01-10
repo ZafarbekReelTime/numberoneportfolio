@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "title": "Welcome to the projects page",
+    "searchHint": "Click the center icon to open search",
+    "notFound": "No data found",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    }
+  }
+}
