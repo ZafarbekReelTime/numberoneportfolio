@@ -61,8 +61,8 @@ const Abaut = () => {
       </section>
 
       {/* Tech grid */}
-      <section>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-4">
+      <section className="max-sm:hidden">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-4">
           {datacodetype.map((item) => (
             <button
               key={item.id}
@@ -76,7 +76,7 @@ const Abaut = () => {
               />
               <button
                 onClick={() => openModal(item)}
-                className="bg-gray-900 border border-white/30 rounded-xl text-center p-2 hover:border-white hover:text-white/80 hover:transition-all hover:duration-200"
+                className="bg-gray-900 border border-white/30 rounded-xl text-center max-sm:w-full p-2 hover:border-white hover:text-white/80 hover:transition-all hover:duration-200"
               >
                 {t("aboutBtn")}
               </button>
