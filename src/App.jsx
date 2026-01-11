@@ -6,9 +6,10 @@ import Page404 from "./pages/Page404";
 import Abaut from "./pages/Abaut";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Skills from "./pages/Skills";
 
 const App = () => {
- 
+
   const routes = createBrowserRouter(
     createRoutesFromChildren(
       <>
@@ -17,7 +18,7 @@ const App = () => {
           <Route path="/haqida" element={<Abaut />} />
           <Route path="/loyixalar" element={<Projects />} />
           <Route path="/boglanish" element={<Contact />} />
-
+          <Route path="/konikmalar" element={<Skills/>}/>
         </Route>
         <Route path="*" element={<Page404 />} />
       </>

@@ -60,11 +60,23 @@ const Sidebar = ({ isOpen, close }) => {
 
           {/* Navigation */}
           <nav className="flex flex-col gap-y-5 text-center font-medium bg-black/40 py-5 px-10 my-4 rounded-xl">
-            <NavLink to="/">{t("nav.home")}</NavLink>
-            <NavLink to="/haqida">{t("nav.about")}</NavLink>
-            <NavLink to="/loyixalar">{t("nav.projects")}</NavLink>
-            <NavLink to="/skills">{t("nav.skills")}</NavLink>
+            <NavLink to="/" onClick={close}>
+              {t("nav.home")}
+            </NavLink>
+
+            <NavLink to="/haqida" onClick={close}>
+              {t("nav.about")}
+            </NavLink>
+
+            <NavLink to="/loyixalar" onClick={close}>
+              {t("nav.projects")}
+            </NavLink>
+
+            <NavLink to="/konikmalar" onClick={close}>
+              {t("nav.skills")}
+            </NavLink>
           </nav>
+
 
           {/* Language title */}
           <div className="flex items-center justify-between border-b-2 py-2 px-6 mb-5">
