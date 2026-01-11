@@ -1,22 +1,35 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next';
 import { datacode, datacodetype } from '../assets/js/data';
+import TechModal from '../components/TechModal';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Skills = () => {
 
-const { t } = useTranslation();
+    const { t } = useTranslation();
 
-  const [open, setOpen] = useState(false);
-  const [activeItem, setActiveItem] = useState(null);
+    const [open, setOpen] = useState(false);
+    const [activeItem, setActiveItem] = useState(null);
 
-  const openModal = (item) => {
-    setActiveItem(item);
-    setOpen(true);
-  };
+    const openModal = (item) => {
+        setActiveItem(item);
+        setOpen(true);
+    };
 
     return (
         <section className={`${datacode.container}`}>
             <section>
+                <h2 className="font-medium text-lg text-center sm:text-start sm:ml-5">
+                    <Typewriter
+                        words={[t("skills")]}
+                        loop={0}
+                        cursor
+                        cursorStyle="|"
+                        typeSpeed={80}
+                        deleteSpeed={50}
+                        delaySpeed={1200}
+                    />
+                </h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-4">
                     {datacodetype.map((item) => (
                         <button

@@ -12,7 +12,7 @@ const TechModal = ({ open, onClose, data }) => {
             className="fixed inset-0 bg-black/60 z-40"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            exit={{ opacity: 0 }} 
           />
 
           {/* Modal */}
